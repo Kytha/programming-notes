@@ -1,3 +1,30 @@
+## Web Development Fundamentals
+
+Before jumping into HTML and subsequently web development it is important to have a general idea of how all the components and technologies behind the scenes work together to deliver content to your browser.
+
+The most fundamental technology to understand for web development is web browsers. Fortunately most people have already spent hundreds of hours using them. A web browser's fundamental purpose is allow you to visit webpages on the internet. It retrieves information from other parts of the web and displays it on your desktop or mobile device. It does this with the help of technology called URL.
+
+## Behind URLs
+
+URL stands for Uniform Resource Locator. A url is a reference to a resource on the internet that specifies the resource's location and how to retrieve it.
+
+```
+https://google.com
+```
+
+- google.com - Name of the resource
+- https - Specifies how to retrieve it (hypertext transfer protocol)
+
+When you type a URL into your web browser, your browser, with the help of your ISP (internet service provider), locates the server that resource is on. Your browser then asks that server for the resource, and if properly authenticated, the server will respond with the resource.
+
+Two important clarifications:
+
+1. webpages are just document files
+2. Servers are just computers with special server software running
+
+Q: If webpages are documents what type of document are they?
+A: HTML documents
+
 ## What is HTML
 
 HTML stands for **Hypertext Markup Language**. Hypertext means that this type of document can contain links that allow the reader to jump to other places in the document or to different documents all together. Knowing this, it's easy to see why its used for the world wide web. While modern browsers support other file formats, HTML is by far the most common language used to write webpages.
@@ -25,7 +52,7 @@ Just like in chemistry, **elements can be combined to form structures**. Just li
 </body>
 ```
 
-Here we have a header element `<h1>` and a paragraph element `<p>`. However these elements are inside the body element `<body>`. When this happens it is said that the `<body>` element is a **parent element** to `<h1>` and `<p>`. Conversely, `<h1>` and `<p>` are **child elements** to `<body>` and **sister elements** to ech other.
+Here we have a header element `<h1>` and a paragraph element `<p>`. However these elements are inside the body element `<body>`. When this happens it is said that the `<body>` element is a **parent element** to `<h1>` and `<p>`. Conversely, `<h1>` and `<p>` are **child elements** to `<body>` and **sister elements** to each other.
 
 Because of this, it is easy an intuitive to think of an HTML document as a **family tree**, with each element being a family member capable of producing children. Just like family trees, HTML documents can become quite complex; with dozens of "generations" and ancestors.
 
